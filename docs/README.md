@@ -37,3 +37,5 @@ Communication follows a structured rhythm including daily standups for blockers,
 - For new projects, start with the Project Initiation guide and the Project One-pager template.
 - Follow the Planning and Execution guides for backlog, PR, and release practices.
 - Use the Roles & Personas doc to clarify handoffs and responsibilities.
+- 
+
