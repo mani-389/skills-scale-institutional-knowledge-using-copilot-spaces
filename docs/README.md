@@ -4,24 +4,32 @@ This folder contains OctoAcme's program and project management process documents
 
 ## Documents
 
-- octoacme-project-management-overview.md
-- octoacme-project-initiation.md
-- octoacme-project-planning.md
-- octoacme-execution-and-tracking.md
-- octoacme-risks-and-communication.md
-- octoacme-release-and-deployment.md
-- octoacme-retrospective-and-continuous-improvement.md
-- octoacme-roles-and-personas.md
+- `octoacme-project-management-overview.md`
+- `octoacme-project-initiation.md`
+- `octoacme-project-planning.md`
+- `octoacme-execution-and-tracking.md`
+- `octoacme-risks-and-communication.md`
+- `octoacme-release-and-deployment.md`
+- `octoacme-retrospective-and-continuous-improvement.md`
+- `octoacme-roles-and-personas.md`
 
 ## Summary
 
-OctoAcme follows an iterative, outcome-focused project management lifecycle: Initiation → Planning → Execution → Release → Close. New initiatives begin with a lightweight Project One-pager that clarifies the problem, objective, success metrics, stakeholders, and a high-level timeline. Planning breaks approved work into shippable increments, captures acceptance criteria and Definition of Done, and records dependencies and risks to guide execution.
+OctoAcme follows an iterative, outcome-focused project management lifecycle: Initiation → Planning → Execution → Release → Close. New initiatives begin with a lightweight Project One-pager, defining goals and stakeholder alignment. Planning breaks work into shippable increments with clear acceptance criteria and Definition of Done.
 
-Work is tracked on a project board (Backlog → Ready → In Progress → In Review → QA → Done) and delivered via small, reviewable pull requests. Backlog items include clear acceptance criteria, owner, estimate, and priority. The pull request workflow expects automated checks (unit/integration tests, linting, security scans) and at least one approval before merge; releases require pre-release checks, release notes, staging smoke tests, and rollback plans.
+Work is tracked on project boards with small, reviewable pull requests (<= 400 lines) required for all changes. Release and deployment follow gated checklists including staging smoke tests, release notes, and rollback plans.
 
-Roles and responsibilities are explicit: Product Managers define outcomes and prioritize the backlog; Project Managers coordinate delivery, schedules, and stakeholder communications; Developers implement features and run tests and docs; QA validates acceptance criteria and runs integration/E2E checks.
+### Personas and Roles
 
-Communication cadence includes daily standups for blockers, weekly delivery syncs for progress and risks, and demos at the end of each sprint or milestone. Risk management and a simple register ensure issues are assessed, mitigated, and escalated when necessary.
+Roles and responsibilities are explicitly defined for clear accountability:
+- **Product Managers**: Own problem definition, success metrics, and backlog prioritization.
+- **Project Managers**: Coordinate delivery, schedules, risk registers, and cross-team communication.
+- **Developers**: Implement features, maintain automated unit/integration tests, and document code.
+- **QA**: Validate acceptance criteria, execute end-to-end testing, and conduct security scans.
+
+### Communication & Quality Assurance
+
+Communication follows a structured rhythm including daily standups for blockers, weekly delivery syncs, and end-of-sprint demos. Risk management uses a three-level escalation path. Quality assurance enforces unit and integration testing, CI security scanning, and manual QA checks before releases.
 
 ## How to use
 
